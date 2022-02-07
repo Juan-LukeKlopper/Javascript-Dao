@@ -1,11 +1,7 @@
-# buildspace x thirdweb - Build your own DAO with just Javascript
+# This is a DAO built using only JavaScript
 
-### **Welcome 👋**
-To get started with this course, clone this repo and follow these commands:
+## A Dao is a Decentralized Autonomous Organisation
 
-1. Run `npm install` at the root of your directory
-2. Run `npm start` to start the project
-3. Start coding!
+Once completed this website will mint a Dao ownership NFT and airdrop a custom ERC20 token.
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/COb520aae3-7925-42f4-a5e7-eaf718933766) and link your Discord account so you can get access to helpful channels and your instructor!
+These tokens will then be used to vote of proposals where each token counts as one vote.
