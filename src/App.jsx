@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <div className="landing">
-      <h1>Welcome to the brotherhood.</h1>
+      <h1>Welcome to the FreeKnowledgeDAO.</h1>
     </div>);
 };
 
