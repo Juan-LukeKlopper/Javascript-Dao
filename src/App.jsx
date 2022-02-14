@@ -169,16 +169,16 @@ const App = () => {
   if (hasClaimedNFT) {
     return (
       <div className="member-page">
-        <h1>FreeKnowledgeDAO Member Page</h1>
+        <h1>FreeKnowledgeDAO Members Only Dashboard</h1>
         <p>Congratulations on being a member and helping us contribute to the future. </p>
         <div>
         <div>
-          <h2>Member List</h2>
+          <h2> FREEMIND Token Hall of fame List</h2>
           <table className="card">
             <thead>
               <tr>
-                <th>Address</th>
-                <th>Token Amount</th>
+                <th>Member Address</th>
+                <th>FREEMIND Amount</th>
               </tr>
             </thead>
             <tbody>
@@ -194,7 +194,7 @@ const App = () => {
           </table>
         </div>
         <div>
-            <h2>Active Proposals</h2>
+            <h2>Active Improvement Proposals</h2>
             <form
               onSubmit={async (e) => {
                 e.preventDefault();
@@ -285,11 +285,11 @@ const App = () => {
                 {isVoting
                   ? "Voting..."
                   : hasVoted
-                    ? "You Already Voted"
+                    ? "You have Already Voted on all available proposals"
                     : "Submit Votes"}
               </button>
               <small>
-                This will trigger multiple transactions that you will need to
+                Warning! This will trigger multiple transactions that you will need to
                 sign.
               </small>
             </form>
